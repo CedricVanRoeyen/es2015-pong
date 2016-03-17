@@ -8,6 +8,7 @@ export default class Paddle {
     this.y = y;
     this.width = 20;
     this.height = 100;
+    this.velY = 0;
     this.speed = speed;
   }
 

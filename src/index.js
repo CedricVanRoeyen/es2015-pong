@@ -22,7 +22,7 @@ function main() {
 }
 
 function init() {
-  player = new Player(20, (GLOBALVARS.canvasHeight - 100)/2, 0);
+  player = new Player(20, (GLOBALVARS.canvasHeight - 100)/2, 7);
   ai = new Paddle(GLOBALVARS.canvasWidth - (40), (GLOBALVARS.canvasHeight - 100)/2, 0);
   ball = new Ball((GLOBALVARS.canvasWidth - 20)/2, (GLOBALVARS.canvasHeight - 20)/2);
 }

@@ -6,8 +6,8 @@ export default class Ball{
     this.x = x;
     this.y = y;
     this.side = 20;
-    this.velX = null;
-    this.velY = null;
+    this.speed = speed;
+    this.vel = {};
   }
 
   draw() {
